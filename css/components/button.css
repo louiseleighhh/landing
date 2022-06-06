@@ -1,0 +1,17 @@
+.btn-banner{
+  color: white;
+  padding: 24px 32px;
+  font-size: 24px;
+  border-radius: 24px;
+  background: linear-gradient(#9A4583, #7A2C3D);
+  transition: background 0.3s ease;
+  border: 1px solid #202020;
+  margin-left: 200px;
+  margin-bottom: -4px;
+  box-shadow: 6px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-banner:hover{
+  background: linear-gradient(#8d3d9c, #956b30);
+}

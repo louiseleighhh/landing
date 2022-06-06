@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/button.css');
+@import url('components/card.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background: linear-gradient(#31233F, #A15F93);
+  font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Kaisei Tokumin;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 1000x;
+}
+
+
+.banner{
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(#2A2452, #2D2238);
+  color: white;
+  font-family: Kaisei Tokumin;
+  box-shadow: 2px 2px 6px #3c3c3c;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.title {
+  margin-left: 200px;
+  font-size: 60px;
+  text-shadow: 6px 4px #be5cb7;
+}
+
+.description{
+  margin-top: -66px;
+  margin-bottom: 48px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+
+.privileges {
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+  background: linear-gradient(#2E2339, #2D2238);
+  margin-top: 20px;
+}
+
+.footer a {
+  font-size: 28px;
+  color:  #cfcfcf;
+}
+
+.footer h1 {
+  font-size: 32px;
+}
+
+.socials{
+  color: white;
+  margin-top: -40px;
+  padding-bottom: 30px;
+}
+
+.footer-text{
+  padding-top: 10px;
+  text-shadow: 2px 2px 2px #252525;
+}
+
+.footer p{
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.cards-middle{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  font-family:  poppins;
+  padding-top: 0px;
+  color: white;
+}
+.card-privilege{
+  width: 350px;
+  height: 300px;
+  border-radius: 7px;
+  box-shadow: 2px 3px 5px rgb(40, 40, 40);
+  text-align: center;
+  background-color: #291D2E;
+  border: 1px solid rgb(26, 26, 26);
+  text-align: middle;
+}
+
+.card-privilege p, i{
+  margin-top: 60px;
+}
